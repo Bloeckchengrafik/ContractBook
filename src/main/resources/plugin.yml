@@ -1,0 +1,10 @@
+name: Cryptbook
+version: ${project.version}
+main: io.github.bloeckchengrafik.cryptbook.Cryptbook
+commands:
+  sha512:
+    description: Verifys a Book of a Player
+    usage: §c/sha512 <Player>
+  contract:
+    description: Creates a Contract
+    usage: §c/contract <Player> <Contract>
